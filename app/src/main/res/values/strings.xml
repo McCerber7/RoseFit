@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Роуз Фит</string>
+    <string name="cd_circle">Круг с номером дня</string>
+    <string name="cd_sticker">Стикер</string>
+    <string name="cd_food">Фото еды</string>
+    <string name="cd_body">Фото прогресса</string>
+    <string name="cd_camera">Добавить фото</string>
+    <string name="btn_done">Готово</string>
+</resources>

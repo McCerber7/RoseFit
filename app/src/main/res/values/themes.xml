@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PinkFit" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">@color/pink_soft</item>
+        <item name="android:colorBackground">@color/bg</item>
+        <item name="colorSurface">@color/card</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+        <item name="android:textColorPrimary">@color/text</item>
+        <item name="android:textColorSecondary">@color/text_soft</item>
+        <item name="materialAlertDialogTheme">@style/PinkAlertDialog</item>
+        <item name="textInputStyle">@style/PinkTextInput</item>
+        <item name="materialSwitchStyle">@style/PinkSwitch</item>
+    </style>
+
+    <style name="PinkAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorPrimary">@color/pink_dark</item>
+        <item name="colorSecondary">@color/pink_dark</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PinkDialogButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/PinkDialogButton</item>
+        <item name="buttonBarNeutralButtonStyle">@style/PinkDialogButton</item>
+        <item name="shapeAppearanceOverlay">@style/PinkDialogShape</item>
+    </style>
+
+    <style name="PinkDialogButton" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/pink_dark</item>
+    </style>
+
+    <style name="PinkDialogShape" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">28dp</item>
+    </style>
+
+    <style name="PinkTextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/pink</item>
+        <item name="hintTextColor">@color/pink_dark</item>
+        <item name="boxCornerRadiusTopStart">18dp</item>
+        <item name="boxCornerRadiusTopEnd">18dp</item>
+        <item name="boxCornerRadiusBottomStart">18dp</item>
+        <item name="boxCornerRadiusBottomEnd">18dp</item>
+    </style>
+
+    <style name="PinkSwitch" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+        <item name="thumbTint">@color/switch_thumb</item>
+        <item name="trackTint">@color/switch_track</item>
+        <item name="trackDecorationTint">@android:color/transparent</item>
+    </style>
+</resources>

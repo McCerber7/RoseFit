@@ -1,0 +1,19 @@
+# Gradle / build
+.gradle/
+build/
+app/build/
+build_log*.txt
+
+# Локальная конфигурация (пути к SDK на этой машине)
+local.properties
+
+# Ключ подписи (секрет, хранится только локально)
+keystore/
+
+# IDE
+.idea/
+*.iml
+
+# ОС
+.DS_Store
+Thumbs.db
